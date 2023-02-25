@@ -1,0 +1,158 @@
+#title {
+    background-color: #ff4c68;
+}
+
+body {
+    font-family: 'Ubuntu', sans-serif;
+}
+
+h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 4rem;
+    line-height: 1.5;
+    color: white;
+}
+
+h3 {
+    font-family: 'Montserrat';
+    font-size: 1.5rem;
+}
+
+h2 {
+    font-size: 3rem;
+}
+
+p {
+    color: #8f8f8f;
+}
+
+.container-fluid {
+    padding: 3% 15% 10%;
+}
+
+.btn {
+    margin: 5% 3% 5% 0;
+}
+
+.tindog {
+    font-size: 2rem;
+}
+
+.nav-item {
+    font-size: 1.2rem;
+    padding: 0 25px;
+}
+
+.iphone {
+    transform: rotate(25deg);
+    margin-top: 5%;
+    width: 60%;
+    position: absolute;
+    margin-left: 20%;
+}
+
+.navbar{ 
+    padding: 0 0 4.5rem;
+}
+
+
+#features {
+    text-align: center;
+    padding: 8%;
+    background-color: white;
+    position: relative;
+    z-index: 1;
+}
+
+.icon {
+    color: #cf8172;
+    padding: 3%;
+}
+
+.icon:hover {
+    color: #ff4c68;
+    transition: 0.5s;
+}
+
+#testimonials {
+    font-family: 'Montserrat';
+    color: white;
+    background-color: #cf8172;
+    text-align: center;
+    
+}
+
+.dogy {
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+}
+
+#press {
+    background-color: #cf8172;
+    text-align: center;
+    padding: 3%;
+}
+
+.pres {
+    width: 15%;
+    margin: 3%;
+}
+
+.carousel-item {
+    padding: 7% 15%;
+}
+
+#pricing {
+    text-align: center;
+}
+
+.dogs {
+    margin-top: 3%;
+    margin-bottom: 3%;
+}
+
+.card {
+    text-align: center;
+    margin: auto;
+}
+
+.price-btn {
+    width: 100%;
+}
+
+.cards {
+    margin: 0;
+}
+
+@media (max-width: 992px) {
+    .iphone {
+        position: static;
+        transform: rotate(0deg);
+    }
+
+    #title {
+        text-align: center;
+    }
+}
+
+#cta {
+    color: white;
+    padding: 50px;
+    background-color: #ff4c68;
+    text-align: center;
+}
+
+.foot {
+    font-size: 3rem;
+    font-family: 'Montserrat';
+}
+
+#footer {
+    padding: 100px;
+    text-align: center;
+}
+
+.contact-image {
+    padding: 10px;
+}
