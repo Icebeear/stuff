@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Login</title>
+    </head>
+    <body>
+        <h1>Login</h1>
+        <form action="{{url_for('login')}}", method="POST", novalidate>
+            <p name="email">
+                {{form.email.label}}
+                <br>
+                {{form.email(size=30)}} 
+
+                
+                <!-- <span style="color:red">{{email_error}}</span> -->
+                
+            </p>
+
+            <p name="password">
+                {{form.password.label}} 
+                <br> 
+                {{form.password(size=30)}} 
+
+                <!-- <span style="color:red">{{password_error}}</span> -->
+            </p>
+            
+            {{form.submit}}
+
+        </form>
+    </body>
+</html>
