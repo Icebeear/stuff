@@ -1,0 +1,27 @@
+.container {
+    text-align: center;
+    padding-bottom: 5em;
+    background-color: rgb(236, 237, 238);
+}
+
+.header {
+    font-size: 5em;
+}
+
+.btn-lg {
+    height: 3em;
+    width: 5em;
+    margin-top: 2em;
+}
+
+table {
+    margin-top: 2em;
+}
+
+td {
+    height: 170px;
+    width: 170px;
+    text-align: center;
+    border: 5px solid black;
+    font-size: 100px
+}
